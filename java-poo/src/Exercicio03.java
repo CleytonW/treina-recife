@@ -9,7 +9,7 @@ public class Exercicio03 {
         Scanner sc = new Scanner(System.in);
         List<Turma> turmas = new ArrayList<>();
 
-        System.out.println("Digite o número de turma a srem cadastradas:");
+        System.out.println("Digite o número de turma a serem cadastradas:");
         int numTurmas = sc.nextInt();
 
         sc.nextLine();
