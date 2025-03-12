@@ -1,7 +1,5 @@
 import java.time.LocalDate;
 
-
-
 public class Livro {
     private String titulo;
     private LocalDate anoPublicacao;

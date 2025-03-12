@@ -1,5 +1,5 @@
-
 import java.util.Date;
+import java.util.List;
 
 public class Aluno {
 
@@ -90,6 +90,11 @@ public class Aluno {
 
     public void setTurma(Turma turma) {
         this.turma = turma;
+    }
+
+    public List<Aluno> getCursos() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCursos'");
     }
 
 
