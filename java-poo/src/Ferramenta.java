@@ -1,3 +1,4 @@
+
 public class Ferramenta extends ItemDeLoja {
 
     private String categoria;
@@ -33,6 +34,18 @@ public class Ferramenta extends ItemDeLoja {
 
     public void setSerial(Integer serial) {
         this.serial = serial;
+    }
+
+    public void separar(String categoria) {
+        if (categoria.equals(null)) {
+           setCategoria("");
+        } else {
+            setCategoria(categoria);
+        }
+    }
+
+    public String toString() {
+        return String.format(categoria, separar());
     }
 
     @Override
