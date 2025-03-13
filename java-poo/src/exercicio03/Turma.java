@@ -1,3 +1,5 @@
+package exercicio03;
+
 import java.util.List;
 
 public class Turma {
@@ -6,12 +8,12 @@ public class Turma {
     private Integer sala;
     private List<Aluno> alunos;
 
-    //método construtor padrão
-    public Turma(){
+    // método construtor padrão
+    public Turma() {
 
     }
 
-    //método construtor com todos os argumentos
+    // método construtor com todos os argumentos
     public Turma(String codigo, Integer turno, Integer sala) {
         this.codigo = codigo;
         this.turno = turno;
@@ -41,7 +43,7 @@ public class Turma {
     public void setSala(Integer sala) {
         this.sala = sala;
     }
-    
+
     public List<Aluno> getAlunos() {
         return alunos;
     }
@@ -53,6 +55,5 @@ public class Turma {
     public int getNumeroAlunoMatriculados() {
         return alunos.size();
     }
-
 
 }

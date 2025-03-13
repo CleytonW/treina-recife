@@ -1,3 +1,5 @@
+package exercicio05;
+
 public class MeioDeTransporte {
 
     private Integer id;

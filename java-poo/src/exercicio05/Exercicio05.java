@@ -1,3 +1,5 @@
+package exercicio05;
+
 public class Exercicio05 {
     public static void main(String[] args) {
         MeioDeTransporte caminhao = new MeioDeTransporte(1, 2024, "FIAT", 200.00);

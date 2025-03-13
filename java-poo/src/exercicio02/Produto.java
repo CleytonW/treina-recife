@@ -1,17 +1,17 @@
+package exercicio02;
 
 import java.time.LocalDate;
 import java.time.Period;
 
 public class Produto {
 
-    //atributos
+    // atributos
     private Integer id;
     private String nome;
     private String descricao;
     private LocalDate validade;
 
-
-    //métodos
+    // métodos
     public Integer getId() {
         return id;
     }
@@ -44,7 +44,6 @@ public class Produto {
         this.validade = validade;
     }
 
-
     public int calcularDiasRestante() {
 
         LocalDate dataAtual = LocalDate.now();
@@ -55,5 +54,3 @@ public class Produto {
     }
 
 }
-
-

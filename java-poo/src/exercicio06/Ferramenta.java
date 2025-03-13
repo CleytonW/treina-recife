@@ -1,3 +1,4 @@
+package exercicio06;
 
 public class Ferramenta extends ItemDeLoja {
 
@@ -38,7 +39,7 @@ public class Ferramenta extends ItemDeLoja {
 
     public void separar(String categoria) {
         if (categoria.equals(null)) {
-           setCategoria("");
+            setCategoria("");
         } else {
             setCategoria(categoria);
         }

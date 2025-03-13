@@ -1,10 +1,13 @@
+package exercicio06;
+
 public class ItemDeLoja {
     private int codigoDoItem;
     private String nomeDoItem;
     private String descricaoDoItem;
     private double valorDoItem;
 
-    public ItemDeLoja() {}
+    public ItemDeLoja() {
+    }
 
     public ItemDeLoja(int codigoDoItem, String nomeDoItem, String descricaoDoItem, double valorDoItem) {
         this.codigoDoItem = codigoDoItem;
@@ -44,7 +47,7 @@ public class ItemDeLoja {
     public void setValorDoItem(double valorDoItem) {
         this.valorDoItem = valorDoItem;
     }
-    
+
     public int getIdentificador() {
         return codigoDoItem;
     }

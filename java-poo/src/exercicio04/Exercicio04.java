@@ -1,3 +1,4 @@
+package exercicio04;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -25,8 +26,8 @@ public class Exercicio04 {
         // System.out.println(dep1.getResponsavel().getNomeCompleto());
 
         List<Dependete> deps = new ArrayList<>();
-        
+
         func1.setDependente(deps);
-        
+
     }
 }

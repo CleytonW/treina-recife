@@ -1,3 +1,5 @@
+package exercicio03;
+
 import java.util.Date;
 import java.util.List;
 
@@ -12,13 +14,14 @@ public class Aluno {
     private String uf;
     private Turma turma;
 
-    //método construtor padrão
+    // método construtor padrão
     public Aluno() {
 
     }
 
-    //método construtor com todos os argumentos
-    public Aluno(String cpf, Date dataNascimento, String enderco, String matricula, String nome, String sexo, String uf, Turma turma) {
+    // método construtor com todos os argumentos
+    public Aluno(String cpf, Date dataNascimento, String enderco, String matricula, String nome, String sexo, String uf,
+            Turma turma) {
         this.cpf = cpf;
         this.dataNascimento = dataNascimento;
         this.enderco = enderco;
@@ -96,6 +99,5 @@ public class Aluno {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getCursos'");
     }
-
 
 }

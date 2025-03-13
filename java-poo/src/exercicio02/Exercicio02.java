@@ -1,7 +1,9 @@
+package exercicio02;
+
 import java.time.LocalDate;
 
 public class Exercicio02 {
-    
+
     public static void main(String[] args) {
         Produto arroz = new Produto();
 

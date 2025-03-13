@@ -1,3 +1,4 @@
+package exercicio04;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -11,8 +12,7 @@ public class Dependete {
     private boolean participaPlano;
     private Funcionario responsavel;
 
-
-    public Dependete () {
+    public Dependete() {
 
     }
 

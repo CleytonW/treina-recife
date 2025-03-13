@@ -1,7 +1,9 @@
+package exercicio06;
+
 public class Alimento extends ItemDeLoja {
 
     private Integer selo;
-    
+
     public Alimento() {
 
     }
@@ -22,7 +24,7 @@ public class Alimento extends ItemDeLoja {
     public void setSelo(Integer selo) {
         this.selo = selo;
     }
-    
+
     public int getIdentificador() {
         return selo;
     }

@@ -1,12 +1,14 @@
+package exercicio01;
+
 public class Transporte {
-    //atributos
+    // atributos
     private Integer id;
     private Integer ano;
     private String modelo;
     private Double cargaMaxima;
     private Double potencia;
 
-    //métodos
+    // métodos
     public Integer getId() {
         return id;
     }
