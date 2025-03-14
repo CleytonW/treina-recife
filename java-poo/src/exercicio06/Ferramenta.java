@@ -38,9 +38,7 @@ public class Ferramenta extends ItemDeLoja {
     }
 
     public void separar() {
-        if (categoria.equals(null)) {
-            System.out.println("OUTROS");
-        }
+        System.out.println("OUTROS");
     }
 
     public void getSeparar(String valor) {
