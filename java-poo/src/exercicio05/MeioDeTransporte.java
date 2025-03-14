@@ -1,12 +1,11 @@
 package exercicio05;
 
-public class MeioDeTransporte {
+public abstract class MeioDeTransporte {
 
     private Integer id;
     private Integer ano;
     private String modelo;
     private double cargaMaxima;
-    private double potencia;
 
     public MeioDeTransporte() {
 
@@ -24,7 +23,6 @@ public class MeioDeTransporte {
         this.ano = ano;
         this.modelo = modelo;
         this.cargaMaxima = cargaMaxima;
-        this.potencia = potencia;
     }
 
     public int getId() {
@@ -59,19 +57,6 @@ public class MeioDeTransporte {
         this.cargaMaxima = cargaMaxima;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public double getPotencia() {
-        return potencia;
-    }
-
-    public void setPotencia(double potencia) {
-        this.potencia = potencia;
-    }
-
-    public double consumo() {
-        return potencia * cargaMaxima * 100;
-    }
+    public abstract double consumo();
+    
 }
