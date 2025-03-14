@@ -37,16 +37,14 @@ public class Ferramenta extends ItemDeLoja {
         this.serial = serial;
     }
 
-    public void separar(String categoria) {
+    public void separar() {
         if (categoria.equals(null)) {
-            setCategoria("");
-        } else {
-            setCategoria(categoria);
+            System.out.println("OUTROS");
         }
     }
 
-    public String toString() {
-        return String.format(categoria, separar());
+    public void getSeparar(String valor) {
+        System.out.println(valor);
     }
 
     @Override
