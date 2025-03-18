@@ -2,7 +2,7 @@ package exercicio07;
 
 import java.util.Date;
 
-public class Carro {
+public class Carro extends Modelo {
 
     private String chassi;
     private String cor;

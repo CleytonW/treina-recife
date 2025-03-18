@@ -1,6 +1,6 @@
 package exercicio07;
 
-public class Item extends Modelo {
+public class Item {
 
     private int codigo;
     private String nome;

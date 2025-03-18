@@ -6,7 +6,7 @@ public class Exercicio07 {
 
         carro1.setAnoModelo(2025);
         carro1.setAnoFabricacao(2025);
-        carro1.setCor("Vermelho");
+        carro1.setCor("vermelha");
 
         Modelo modelo1 = new Modelo();
 
@@ -17,5 +17,7 @@ public class Exercicio07 {
 
         item1.setCodigo(159);
         item1.setNome("Banco");
+
+        System.out.println("Carro tem a cor " + carro1.getCor() + " do modelo " + modelo1.getMarca() + " e o nome " + modelo1.getNome());
     }
 }

@@ -1,6 +1,6 @@
 package exercicio07;
 
-public class Modelo extends Carro {
+public class Modelo extends Item {
 
     private int codigo;
     private String marca;
